@@ -16,42 +16,74 @@ body {
 
 }
 
-.btn-image button {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px; /* Espace entre l'image et le texte */
-    background-color: #8B0000;
-    color: white;
-    border: none;
-    padding: 15px 15px;
-    border-radius: 5px;
-    cursor: pointer;
 
-   position: relative;
-    left: 0px;
-    top:-30px
-}
-.barre-navigation {
-    background-color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 40px;
-    padding: 18px;
-    width: 100%;
+/* Réinitialisation de la page */
+* {
     box-sizing: border-box;
 }
 
-.barre-navigation a {
-    color: white;
-    text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
 }
 
-.barre-navigation a:hover {
-    color: #E36;
+/* Barre de navigation noire */
+.barre-navigation {
+    width: 100%;
+    min-height: 65px;
+    background-color: #000000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+
+    padding: 15px 20px;
+    margin: 0;
+    border: none;
 }
+
+/* Liens dans la barre */
+.barre-navigation a {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
+    padding: 8px 0;
+    transition: color 0.3s ease;
+}
+
+/* Effet interactif au survol */
+.barre-navigation a:hover {
+    color: #EE3366;
+}
+
+/* Indication du lien sélectionné au clavier */
+.barre-navigation a:focus-visible {
+    color: #EE3366;
+    outline: 2px solid #EE3366;
+    outline-offset: 5px;
+}
+
+/* Adaptation aux petits écrans */
+@media (max-width: 500px) {
+    .barre-navigation {
+        gap: 20px;
+        padding: 15px 10px;
+        flex-wrap: wrap;
+    }
+
+    .barre-navigation a {
+        font-size: 16px;
+    }
+}
+
+
+
+
 
 
 
