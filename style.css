@@ -1,1 +1,11 @@
+.center {
+  text-align: center;
+}
+body {
+    background-image: url("https://img.magnific.com/photos-premium/papier-peint-pour-voiture-bmw-violet_1254967-17622.jpg?semt=ais_hybrid&w=740&q=80");
+    background-repeat: no-repeat;       /* Empêche la répétition de l'image */
+    background-size: cover;             /* Redimensionne l'image pour couvrir tout l'écran */
+    background-position: center;        /* Centre l'image */
+    background-attachment: fixed;       /* Garde l'image fixe lors du défilement 
 
+}
