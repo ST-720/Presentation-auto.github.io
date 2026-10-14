@@ -16,11 +16,11 @@ p {
 .btn-image button {
     display: inline-flex;
     align-items: center;
-    gap: 1px; /* Espace entre l'image et le texte */
+    gap: 6px; /* Espace entre l'image et le texte */
     background-color: #8B0000;
     color: white;
     border: none;
-    padding: 5px 5px;
+    padding: 15px 15px;
     border-radius: 5px;
     cursor: pointer;
 
