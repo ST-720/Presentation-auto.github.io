@@ -1,6 +1,10 @@
 .center {
   text-align: center;
 }
+/* Exemple pour grossir le texte */
+p {
+  font-size: 40px;
+}
 body {
     background-image: url("https://www.wallfizz.com/art-design/paysage-virtuel/5666-sombres-falaises-WallFizz.jpg");
     background-repeat: no-repeat;       /* Empêche la répétition de l'image */
