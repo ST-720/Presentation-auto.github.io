@@ -8,3 +8,23 @@ body {
     background-position: center;        /* Centre l'image */
     background-attachment: fixed;       /* Garde l'image fixe lors du défilement 
 
+  .btn-image button {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px; /* Espace entre l'image et le texte */
+    background-color: #8B0000;
+    color: white;
+    border: none;
+    padding: 10px 10px;
+    border-radius: 20px;
+    cursor: pointer;
+
+    position: relative;
+    left: 30px;
+    top:-20px
+}
+
+.btn-image button img {
+    width: 300px;
+    height: 188px;
+}
