@@ -1,3 +1,9 @@
 .center {
   text-align: center;
 }
+body {
+    background-image: url("https://p4.wallpaperbetter.com/wallpaper/21/815/720/music-the-city-style-landscape-80s-hd-wallpaper-preview.jpg");
+    background-repeat: no-repeat;       /* Empêche la répétition de l'image */
+    background-size: cover;             /* Redimensionne l'image pour couvrir tout l'écran */
+    background-position: center;        /* Centre l'image */
+    background-attachment: fixed;       /* Garde l'image fixe lors du défilement 
