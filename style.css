@@ -33,3 +33,7 @@ p {
     width: 300px;
     height: 188px;
 }
+/* Exemple pour grossir le texte */
+span {
+  font-size: 40px;
+}
